@@ -11,7 +11,7 @@ Terraform Infrastructure as code to provision AWS EC2 computing engines and S3 S
 
 ## AWS
 
-- Create and AWS user for the project
+- Create an AWS user for the project
 - Give the user administrator permissions
 - Download the user csv credentials
 
