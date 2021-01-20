@@ -23,7 +23,7 @@ resource "aws_security_group" "access-ssh-us-east-1" {
         from_port   = 22
         to_port     = 22
         protocol    = "tcp"
-        cidr_blocks = ["179.187.66.199/32"]
+        cidr_blocks = ["[development-ip]/32"]
     }
 
     tags = {
